@@ -9,4 +9,4 @@ def index():
 
 @bp.route('/new')
 def new():
-	return render_template('pet_new.html')
+	return render_template('fact_new.html')
