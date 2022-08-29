@@ -8,6 +8,7 @@
 	</head>
 	<body>
 		<h1>Welcome to PetFax</h1>
+		<a href="./new">New Fact</a>
 		{% for pet in pets %}
 			<h2><a href="./{{ pet.pet_id - 1 }}">{{ pet.pet_name }}</a></h2>
 		{% endfor %}
