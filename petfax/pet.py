@@ -15,3 +15,7 @@ def show(id):
 		return render_template('pet_show.html', pet=pets[id])
 	else:
 		return '404: Sorry, that index is invalid.'
+
+@bp.route('/new')
+def new():
+	return render_template('pet_new.html')
